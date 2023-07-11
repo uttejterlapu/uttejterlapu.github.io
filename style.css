@@ -1,0 +1,124 @@
+@media(min-width:586px){
+    body{
+        margin: 100px;
+    }
+    .main{
+        margin: 50px auto;
+        display: flex;
+        gap: 10px;
+    }
+    .right{
+        width: 20%;
+        box-sizing: border-box;
+    }
+    .right-profile{
+        padding: 10px;
+    }
+    .left{
+        width: 80%;
+    }
+    .profile1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .profile11{
+        width: 70%;
+        padding: 10px;
+        background-color: hsl(263, 55%, 52%);
+        border-radius: 10px;
+    }
+    .profile12{
+        width: 30%;
+        padding: 10px;
+    }
+    .profile2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .profile21{
+        width: 30%;
+    }
+    .profile22{
+        width: 70%;
+    }
+}
+@media (max-width:586px){
+    body{
+        margin: 40px;
+    }
+    .right{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .right-profile{
+        padding: 10px;
+    }
+    .left{
+        width: 100%;
+        
+    }
+    .profile1{
+        width: 100%;
+    }
+    .profile11{
+        border-radius: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+        background-color: hsl(263, 55%, 52%);
+        padding: 20px;
+    }
+    .profile12{
+        width: 100%;
+
+    }
+    .profile2{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .profile21{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .profile22{
+        width: 100%;
+    }
+}
+
+.profile-bar{
+    display: flex;
+    align-items: center;
+    flex: wrap;
+    gap: 15px;
+}
+.profile11{
+    position: relative;
+}
+.quotes{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.profile11 .para{
+    z-index: 10;
+}
+.profile-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.name{
+    margin: 0;
+}
+.verified{
+    margin: 0;
+    margin-top: 5px;
+}
+.right{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
